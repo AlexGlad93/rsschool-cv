@@ -1,2 +1,2 @@
 # rsschool-cv
-init: create brach 'main' and file README
+https://AlexGlad93.github.io/rsschool-cv/cv
