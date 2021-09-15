@@ -24,3 +24,15 @@ let usdcny = function usdcny(usd) {
     return (usd * 6.75).toFixed(2) + ' Chinese Yuan'
   }
 ```
+
+## Work experience 
+
+I regularly work on the [Hyperice](https://hyperice.ru) brand website, where I need to partially layout pages using the WP Bakery constructor code as a basis. The rest of the time I work as a system administrator in a company called "Electroservice and Co".
+
+## Education
+
+Belarusian State University of Informatics and Radioelectronics (Faculty of Computer Systems and Networks)
+
+## English language proficiency level
+
+Elementary
