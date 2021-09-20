@@ -4,10 +4,10 @@ body {
     background-color: #000;
 }
 
-.wrapper {
+.wrapper, .footer {
+    display: flex;
     max-width: 1000px;
     margin: 0 auto;
-    display: flex;
 }
 
 .aside, .cv_photo img{
@@ -62,4 +62,25 @@ h1 {
     line-height: 1.5em;
     font-family: Montserrat;
     color: #2D2D2D;
+}
+
+.footer {
+    background-color: #fecb00;
+    justify-content: space-around;
+}
+
+.footer section{
+    display: flex;
+}
+.footer .year p{
+    font-size: 2em;
+    font-weight: 800;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.rs_school_logo img, .github_logo img{
+    max-height: 150px;
+    max-width: 300px;
+    padding: 10% 0;
 }
