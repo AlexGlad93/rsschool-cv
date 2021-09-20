@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500,600,700,800&display=swap");
+
+body {
+    background-color: #000;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper, .footer {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.aside, .cv_photo img{
+    max-width: 300px;
+}
+
+.aside {
+    background-color: #202026;
+    color: #fff;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.aside section p, .aside section h2, .aside section ul{
+    margin-left: 2rem;
+}
+
+.aside section h2{
+    border-bottom: 2px solid #fecb00;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+
+.content section {
+    padding: 0 4em;
+
+}
+.name {
+    margin: 10% 0;
+    padding: 5% 4em;
+    background-color: #fecb00;
+}
+
+.name h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h1, h2 {
+    font-family: Montserrat;
+    font-size: 1.5em;
+}
+.content h2 {
+    color: #2D2D2D;
+}
+
+.content p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: Montserrat;
+    color: #2D2D2D;
+}
+
+.footer {
+    background-color: #fecb00;
+    justify-content: space-around;
+}
+
+.footer section{
+    display: flex;
+}
+.footer .year p{
+    font-size: 2em;
+    font-weight: 800;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.rs_school_logo img, .github_logo img{
+    max-height: 150px;
+    max-width: 300px;
+    padding: 10% 0;
+}
+
+.header_menu {
+height: 10%;
+font-size: 18px;
+}
+
+.menu_list{
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.menu_item {
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.menu_item_link {
+    line-height: 2em;
+    color: #202026;
+    font-weight: 600;
+}
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.menu_item a:hover {
+    text-decoration: underline;
+}
+.contacts_list a {
+    color: #fecb00;
+}
